@@ -1,0 +1,74 @@
+<svg width="860" height="200" viewBox="0 0 860 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Projetos em Números">
+  <style>
+    .t { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    .name { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .desc { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b93a7; }
+    .status { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .big { font: 700 30px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    .lbl { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .sub { font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b93a7; }
+    .ic { stroke: #38bdae; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+  </style>
+
+  <!-- Card esquerdo: Projetos -->
+  <rect x="0.5" y="0.5" width="509" height="199" rx="6" fill="#1a1b27" stroke="#e4e2e2" stroke-opacity="0.25"/>
+  <text x="25" y="36" class="t">Projetos</text>
+
+  <!-- Linha 1 -->
+  <g transform="translate(25,58)">
+    <g class="ic">
+      <ellipse cx="8" cy="4" rx="5" ry="2"/>
+      <path d="M3 4v8c0 1.1 2.2 2 5 2s5-.9 5-2V4"/>
+      <path d="M3 8c0 1.1 2.2 2 5 2s5-.9 5-2"/>
+    </g>
+    <text x="28" y="9" class="name">Análise de Chamados e SLA</text>
+    <text x="28" y="25" class="desc">SQL documentado, modelagem e dashboard Power BI</text>
+  </g>
+  <circle cx="400" cy="66" r="4" fill="#3fb950"/>
+  <text x="485" y="70" text-anchor="end" class="status" fill="#3fb950">Concluído</text>
+
+  <!-- Linha 2 -->
+  <g transform="translate(25,104)">
+    <g class="ic">
+      <rect x="1" y="2" width="14" height="12" rx="2"/>
+      <path d="M4 6l3 2-3 2M9 11h3"/>
+    </g>
+    <text x="28" y="9" class="name">SQL Lab</text>
+    <text x="28" y="25" class="desc">Exercícios e consultas interativas em SQL</text>
+  </g>
+  <circle cx="400" cy="112" r="4" fill="#58a6ff"/>
+  <text x="485" y="116" text-anchor="end" class="status" fill="#58a6ff">Disponível</text>
+
+  <!-- Linha 3 -->
+  <g transform="translate(25,150)">
+    <g class="ic">
+      <rect x="2" y="2" width="12" height="5" rx="1"/>
+      <rect x="2" y="9" width="12" height="5" rx="1"/>
+      <path d="M5 4.5h.01M5 11.5h.01"/>
+    </g>
+    <text x="28" y="9" class="name">Homelab Infra</text>
+    <text x="28" y="25" class="desc">Infraestrutura, redes e automação (11 fases)</text>
+  </g>
+  <circle cx="394" cy="158" r="4" fill="#e3b341"/>
+  <text x="485" y="162" text-anchor="end" class="status" fill="#e3b341">Em progresso</text>
+
+  <!-- Card direito: Em números -->
+  <rect x="530.5" y="0.5" width="329" height="199" rx="6" fill="#1a1b27" stroke="#e4e2e2" stroke-opacity="0.25"/>
+  <text x="555" y="36" class="t">Em Números</text>
+
+  <g text-anchor="middle">
+    <text x="598" y="105" class="big">3</text>
+    <text x="598" y="128" class="lbl">Repositórios</text>
+    <text x="598" y="144" class="sub">principais</text>
+
+    <text x="695" y="105" class="big">11</text>
+    <text x="695" y="128" class="lbl">Fases</text>
+    <text x="695" y="144" class="sub">do Homelab</text>
+
+    <text x="792" y="105" class="big">1</text>
+    <text x="792" y="128" class="lbl">Dashboard</text>
+    <text x="792" y="144" class="sub">Power BI</text>
+  </g>
+  <line x1="646" y1="78" x2="646" y2="152" stroke="#e4e2e2" stroke-opacity="0.25"/>
+  <line x1="743" y1="78" x2="743" y2="152" stroke="#e4e2e2" stroke-opacity="0.25"/>
+</svg>
