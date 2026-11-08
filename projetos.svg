@@ -24,8 +24,8 @@
     <text x="28" y="9" class="name">Análise de Chamados e SLA</text>
     <text x="28" y="25" class="desc">SQL documentado, modelagem e dashboard Power BI</text>
   </g>
-  <circle cx="400" cy="66" r="4" fill="#3fb950"/>
-  <text x="485" y="70" text-anchor="end" class="status" fill="#3fb950">Concluído</text>
+  <text x="474" y="70" text-anchor="end" class="status" fill="#3fb950">Concluído</text>
+  <circle cx="486" cy="66" r="4" fill="#3fb950"/>
 
   <!-- Linha 2 -->
   <g transform="translate(25,104)">
@@ -36,8 +36,8 @@
     <text x="28" y="9" class="name">SQL Lab</text>
     <text x="28" y="25" class="desc">Exercícios e consultas interativas em SQL</text>
   </g>
-  <circle cx="400" cy="112" r="4" fill="#58a6ff"/>
-  <text x="485" y="116" text-anchor="end" class="status" fill="#58a6ff">Disponível</text>
+  <text x="474" y="116" text-anchor="end" class="status" fill="#58a6ff">Disponível</text>
+  <circle cx="486" cy="112" r="4" fill="#58a6ff"/>
 
   <!-- Linha 3 -->
   <g transform="translate(25,150)">
@@ -49,8 +49,8 @@
     <text x="28" y="9" class="name">Homelab Infra</text>
     <text x="28" y="25" class="desc">Infraestrutura, redes e automação (11 fases)</text>
   </g>
-  <circle cx="394" cy="158" r="4" fill="#e3b341"/>
-  <text x="485" y="162" text-anchor="end" class="status" fill="#e3b341">Em progresso</text>
+  <text x="474" y="162" text-anchor="end" class="status" fill="#e3b341">Em progresso</text>
+  <circle cx="486" cy="158" r="4" fill="#e3b341"/>
 
   <!-- Card direito: Em números -->
   <rect x="530.5" y="0.5" width="329" height="199" rx="6" fill="#1a1b27" stroke="#e4e2e2" stroke-opacity="0.25"/>
