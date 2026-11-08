@@ -1,0 +1,40 @@
+name: Atualizar indicadores do portfolio
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 9 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/gerar_indicadores.py'
+      - '.github/workflows/atualizar-indicadores.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-indicadores
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Gerar painel SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gerar_indicadores.py
+      - name: Publicar somente se houver mudancas
+        run: |
+          if git diff --quiet -- projetos.svg; then
+            echo "Sem alteracoes no painel"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projetos.svg
+          git commit -m "chore: atualizar indicadores do portfolio"
+          git push
